@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="ksKgf-Cy0TFbwTeGjhw8" name="ページ1">
-        <mxGraphModel dx="202" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="335" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                 <mxCell id="121" value="nickname" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="79">
                     <mxGeometry y="26" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="e-mail" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="79">
+                <mxCell id="122" value="email" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="79">
                     <mxGeometry y="46" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="124" value="password" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;strokeColor=none;" vertex="1" parent="79">
@@ -111,7 +111,7 @@
                 <mxCell id="157" value="&amp;nbsp;ship date" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="92">
                     <mxGeometry y="154" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="&amp;nbsp;ship to address" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="92">
+                <mxCell id="158" value="prefa" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="92">
                     <mxGeometry y="174" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="114" value="&amp;nbsp;priice" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="92">
