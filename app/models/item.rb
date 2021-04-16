@@ -6,23 +6,23 @@ class Item < ApplicationRecord
   belongs_to :ship_base
   belongs_to :ship_date
 
+  has_one_attached :image
+  has_one :order
+  belongs_to :user
 
   with_options presence: true do
    validates :product
    validates :description
-   validates :price
-   validates :user, foreign_key: true
-  end
- 
-  with_options numericality: { other_than: 1 } do
-  validates :category_id 
-  validates :condition_id 
-  validates :prefecture_id 
-  validates :ship_base_id 
-  validates :ship_id_id 
+   validates :price, numericality: { in: 300..9999999 }, format: {with: /\A[0-9]+\z/i }
+   validates :image
   end
 
-  has_one_attached :image
-  has_one :order
-  belongs_to :user
+  with_options numericality: { other_than: 1 }, presence: true do
+   validates :category_id 
+   validates :condition_id 
+   validates :prefecture_id 
+   validates :ship_base_id 
+   validates :ship_date_id 
+  end
+
 end
