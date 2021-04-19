@@ -132,11 +132,11 @@
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
           <%# 商品が売れていればsold outを表示しましょう %>
-          <%# <% if item.order.present? %>
+          <% if item.product.blank? %>
           <div class='sold-out'>
             <span>Sold Out!!</span>
           </div>
-          <%# <% end %>
+          <% end %>
           <%# //商品が売れていればsold outを表示しましょう %>
         </div>
         <div class='item-info'>
@@ -157,6 +157,7 @@
 
       <%# 商品がない場合は以下のダミー商品が表示されるようにしましょう %>
       <%# 商品がある場合は表示されないようにしましょう %>
+      <% if @items.blank? %>
       <li class='list'>
         <%= link_to '#' do %>
         <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
@@ -174,6 +175,7 @@
         </div>
         <% end %>
       </li>
+      <% end %>
       <%# //商品がある場合は表示されないようにしましょう %>
       <%# //商品がない場合は以下のダミー商品が表示されるようにしましょう %>
     </ul>
