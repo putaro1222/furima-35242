@@ -81,7 +81,7 @@
     </div>
   </div>
   <%# /商品の概要 %>
-
+ <% if user_signed_in? %>
   <div class="comment-box">
     <form>
       <textarea class="comment-text"></textarea>
@@ -96,6 +96,7 @@
       </button>
     </form>
   </div>
+ <% end %> 
   <div class="links">
     <a href="#" class="change-item-btn">
       ＜ 前の商品
